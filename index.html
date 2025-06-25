@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=600, initial-scale=1.0" />
+  <title>롯데캐피탈 입사 축하 게임</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="player"></div>
+    <div class="npc" id="npc1" data-name="부모님"></div>
+    <div class="npc" id="npc2" data-name="친구"></div>
+    <div class="npc" id="npc3" data-name="선생님"></div>
+    <div class="npc" id="npc4" data-name="동기"></div>
+    <div id="message"></div>
+  </div>
+  <div id="party-screen" style="display:none;">
+    <img src="assets/party-bg.jpg" alt="파티 배경" id="party-bg" />
+    <audio id="party-sound" src="assets/party-sound.mp3"></audio>
+    <h2>🎉 파티에 오신 것을 환영합니다! 🎉</h2>
+    <input id="commitment" placeholder="나의 다짐을 입력하세요" />
+    <button id="submit-btn">제출</button>
+    <div id="result" style="display:none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
